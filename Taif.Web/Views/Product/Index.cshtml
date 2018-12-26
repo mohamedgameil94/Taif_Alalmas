@@ -1,0 +1,29 @@
+﻿@model Taif.Web.Models.ProductModel
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="row">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+
+                <td>Name</td>
+                <td>Cost</td>
+                <td>CatId</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                @foreach (var item in Model)
+                {
+
+                    <td>@item.Name </td>
+                    <td>@item.Cost </td>
+                    <td>@item.CategoryId</td>
+
+                }
+            </tr>
+        </tbody>
+    </table>
+</div>

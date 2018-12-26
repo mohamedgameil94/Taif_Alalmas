@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taif.Data", "Taif.Data\Taif.Data.csproj", "{86F21428-35C5-4B08-8BE2-EA9C6E03C17C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taif.Services", "Taif.Services\Taif.Services.csproj", "{3B53749E-C61F-47E7-820B-4A58C2BCCC53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taif.Web", "Taif.Web\Taif.Web.csproj", "{4DBDDAEE-EE90-402C-B2A2-89BA2291A58B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86F21428-35C5-4B08-8BE2-EA9C6E03C17C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F21428-35C5-4B08-8BE2-EA9C6E03C17C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F21428-35C5-4B08-8BE2-EA9C6E03C17C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F21428-35C5-4B08-8BE2-EA9C6E03C17C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B53749E-C61F-47E7-820B-4A58C2BCCC53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B53749E-C61F-47E7-820B-4A58C2BCCC53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B53749E-C61F-47E7-820B-4A58C2BCCC53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B53749E-C61F-47E7-820B-4A58C2BCCC53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DBDDAEE-EE90-402C-B2A2-89BA2291A58B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DBDDAEE-EE90-402C-B2A2-89BA2291A58B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DBDDAEE-EE90-402C-B2A2-89BA2291A58B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DBDDAEE-EE90-402C-B2A2-89BA2291A58B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31C44A8E-DAEA-4304-84AE-7588EF151EE0}
+	EndGlobalSection
+EndGlobal
